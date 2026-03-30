@@ -1,5 +1,5 @@
 # retail-data-cleaning
-
+# Ominichannel retail dataset
 ## Project Overview
 
 This project focuses on cleaning and preparing a retail dataset for analysis. The main objective is to ensure data quality by handling missing values, removing duplicates, standardizing formats, and validating data types. The cleaned dataset can then be used for further data analysis, visualization, and business insights.
