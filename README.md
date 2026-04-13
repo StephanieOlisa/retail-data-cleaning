@@ -183,7 +183,7 @@ Online slightly leads
 ## Screenshort of the Dashboard
 <img width="1205" height="672" alt="image" src="https://github.com/user-attachments/assets/c39c8ea2-584d-4270-b6a7-b72061cbe2be" />
 
-## Final Analysis and Business Recommendations
+## Final Analysis
 
 The analysis of the retail sales dashboard reveals several key insights into business performance, customer behavior, and sales trends.
 
@@ -193,6 +193,7 @@ Product analysis indicates that accessories such as phone cases, laptop sleeves,
 
 Geographically, sales are concentrated in key cities such as Port Harcourt and Kaduna, indicating strong regional markets that can be further expanded. Additionally, sales channels are nearly evenly split between online and offline platforms, with a slight dominance of online sales.
 
+## Business Recommendations
 Based on these findings, several strategic recommendations are proposed. The company should prioritize stocking and promoting high-demand products, particularly accessories. Marketing efforts should be intensified during low-performing periods to maintain consistent revenue flow. Expansion strategies should target high-performing regions, while digital channels should be optimized to further increase online sales.
 
 Finally, inventory planning should align with seasonal demand patterns, particularly in preparation for peak sales periods, to prevent stock shortages and maximize profitability.
