@@ -17,7 +17,8 @@ retail-data-cleaning
 1. Python – For data cleaning and manipulation
 2. Pandas – Handling missing values, duplicates, data type conversions
 3. Jupyter Notebook – Interactive environment for documenting the cleaning process
-4. Git & GitHub – Version control and project repository
+4. Power BI
+5. Git & GitHub – Version control and project repository
 
 ## Data Cleaning Steps
 The dataset was cleaned using the following steps:
@@ -36,6 +37,21 @@ The dataset was cleaned using the following steps:
  Ensured numerical columns were in the correct type (int or float).
 - Save Cleaned Dataset
 - Exported the cleaned dataset to outputs/cleaned_retail_data.csv for further analysis.
+
+``` Python
+import pandas as pd
+df = pd.read_csv("retail_sales_dashboard_dataset.csv")
+print (df.shape)
+df.head
+df.info
+df.describe
+df.duplicated()
+df.isnull().sum()
+df.dropna()
+df['order_date'] = pd.to_datetime(df['order_date'], dayfirst=True)
+df['order_date'].head()
+df.dtypes
+```
 
 ## Repository Workflow
 Clone the repository locally:
@@ -163,6 +179,9 @@ Online slightly leads
 ## Action:
 - Stock up before peak months
 - Avoid stockouts
+
+## Screenshort of the Dashboard
+<img width="1205" height="672" alt="image" src="https://github.com/user-attachments/assets/c39c8ea2-584d-4270-b6a7-b72061cbe2be" />
 
 ## Final Analysis and Business Recommendations
 
